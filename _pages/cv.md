@@ -113,7 +113,8 @@ redirect_from:
 
 - **Membro del Collegio dei Docenti**  
   Dottorato in Metodi Quantitativi per Economia, Ambiente e Salute, XLI ciclo  
-  Università di Foggia
+  Tutor del dott. Costantino Dell'Osso  
+  Università di Foggia 
 
 ---
 
