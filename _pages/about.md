@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Su di me"
+title: "Chi sono"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,7 +9,7 @@ redirect_from:
 
 Benvenuta/o!
 
-Sono Ricercatore Tenure Track (RTT) in Metodi matematici dell'economia e delle scienze attuariali e finanziarie (STAT-04/A) presso Universitas Mercatorum, membro del Data Analytics and Artificial Intelligence Lab (DAAIL) dell’Università di Foggia e del Decision_Lab dell’Università degli Studi di Reggio Calabria.
+Sono Ricercatore Tenure Track (RTT) in Metodi matematici dell'economia e delle scienze attuariali e finanziarie (STAT-04/A) presso Universitas Mercatorum, membro del [Data Analytics and Artificial Intelligence Lab](https://www.economia.unifg.it/it/ricerca/strutture-di-ricerca/data-analytics-and-artificial-intelligence-lab) (DAAIL) dell’Università di Foggia e del [Decision_Lab](https://www.decisionslab.eu/) dell’Università degli Studi di Reggio Calabria.
 
 La mia attività di ricerca si concentra principalmente sul Natural Language Processing (NLP) per la lingua italiana, con particolare attenzione alla sentiment analysis in ambito finanziario e all’utilizzo di informazioni testuali (come le news) per supportare processi decisionali data-driven.
 
