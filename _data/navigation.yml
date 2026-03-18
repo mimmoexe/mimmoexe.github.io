@@ -12,7 +12,7 @@ main:
     url: /ricerca/
 
   - title: "Pubblicazioni"
-    url: /pubblicazioni/
+    url: /publications/
 
   - title: "Didattica"
     url: /didattica/
