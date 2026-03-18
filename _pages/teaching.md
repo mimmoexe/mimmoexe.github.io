@@ -4,6 +4,7 @@ title: "Didattica"
 permalink: /didattica/
 author_profile: true
 ---
+{% include toc %}
 
 ## Didattica
 
