@@ -6,8 +6,6 @@ author_profile: true
 ---
 {% include toc %}
 
-## Didattica
-
 ---
 
 ## A.A. 2025–2026
