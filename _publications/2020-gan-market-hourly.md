@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/gan-market-hourly
 date: 2020-01-01
 venue: "ICMRS 2020"
-category: "conference"
+category: "Conference Papers"
 ---
 
 Grilli, L., & Santoro, D. (2020).  
