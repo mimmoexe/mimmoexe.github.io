@@ -11,7 +11,7 @@ redirect_from:
   
 ## Posizione attuale
 
-- **Ricercatore Tenure Track (RTT)**
+- **Ricercatore Tenure Track (L.79/2022)**  
   Universitas Mercatorum
 
 - **Docente a contratto**  
