@@ -108,6 +108,15 @@ redirect_from:
 
 ---
 
+
+## Collegio Docenti di Dottorato
+
+- **Membro del Collegio dei Docenti**  
+  Dottorato in Metodi Quantitativi per Economia, Ambiente e Salute, XLI ciclo  
+  Università di Foggia
+
+---
+
 ## Associazioni scientifiche
 
 - **Membro AMASES** (Associazione per la Matematica Applicata alle Scienze Economiche e Sociali)
