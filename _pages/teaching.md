@@ -17,9 +17,9 @@ author_profile: true
   CdL in Economia (L-33), Economia Aziendale (L-18), Scienze dell’Amministrazione Digitale (L-16)  
   5 CFU – SSD: INFO-01/A  
 
-- [Metodologie statistiche per l’analisi e la gestione del rischio](https://www.unimercatorum.it/programma/0312509SECSS06)
+- [Metodologie statistiche per l'analisi e la gestione del rischio](https://www.unimercatorum.it/programma/0312509SECSS06)  
   CdLM in Ingegneria Gestionale (LM-31), Universitas Mercatorum  
-  9 CFU – SSD: STAT-04/A  
+  9 CFU – SSD: STAT-04/A
 
 ---
 
