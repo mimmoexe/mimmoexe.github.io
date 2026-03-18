@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-<details>
+  
+<details open>
 <summary><strong>Posizione attuale</strong></summary>
 
 - Ricercatore Tenure Track (RTT) – Universitas Mercatorum  
