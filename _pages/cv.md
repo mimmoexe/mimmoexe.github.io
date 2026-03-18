@@ -7,6 +7,7 @@ redirect_from:
   - /resume
 ---
 
+{% include toc %}
   
 ## Posizione attuale
 
