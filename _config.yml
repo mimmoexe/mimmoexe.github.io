@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "nuova.jpg"
   name             : "Domenico Santoro"
   pronouns         : # example: "he/him"  
   bio              : "Ricercatore Tenure Track (RTT) | STAT-04/A"
