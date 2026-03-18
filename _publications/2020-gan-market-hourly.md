@@ -1,12 +1,9 @@
 ---
 title: "Generative adversarial network for market hourly discrimination"
 collection: publications
-permalink: /publication/gan-market-hourly
+category: conferences
+permalink: /publication/2020-gan-market-hourly
 date: 2020-01-01
-venue: "ICMRS 2020"
-category: "Conference Papers"
+venue: "Proceedings of the 3rd International Conference on Mathematical and Related Sciences (ICMRS 2020)"
+citation: 'Grilli, L., & Santoro, D. (2020). "Generative adversarial network for market hourly discrimination." <i>Proceedings of the 3rd International Conference on Mathematical and Related Sciences (ICMRS 2020)</i>, pp. 106–113.'
 ---
-
-Grilli, L., & Santoro, D. (2020).  
-*Generative adversarial network for market hourly discrimination*.  
-In E. Set (Ed.), Proceedings of the 3rd International Conference on Mathematical and Related Sciences: Current Trends and Developments (ICMRS 2020), pp. 106–113.
