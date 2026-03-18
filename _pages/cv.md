@@ -9,10 +9,12 @@ redirect_from:
 
 {% include base_path %}
   
-<details open>
-<summary><strong>Posizione attuale</strong></summary>
+## Posizione attuale
 
-- Ricercatore Tenure Track (RTT) – Universitas Mercatorum  
-- Docente a contratto – Università di Foggia  
+- **Ricercatore Tenure Track (RTT)**
+  Universitas Mercatorum
 
-</details>
+- **Docente a contratto**  
+  Università di Foggia
+
+---
