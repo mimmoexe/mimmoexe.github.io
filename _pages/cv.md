@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{:toc}
   
 ## Posizione attuale
 
