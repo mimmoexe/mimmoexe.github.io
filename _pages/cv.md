@@ -8,6 +8,8 @@ redirect_from:
 ---
 
 {% include toc %}
+
+---
   
 ## Posizione attuale
 
