@@ -1,38 +1,174 @@
 ---
 layout: archive
-title: "Publications"
+title: "Elenco delle pubblicazioni"
 permalink: /publications/
 author_profile: true
 ---
 
-<!--
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
--->
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+<style>
+.pub-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.pub-sidebar {
+  position: sticky;
+  top: 2rem;
+  font-size: 0.95rem;
+}
+
+.pub-sidebar h2 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.pub-sidebar ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.pub-sidebar li {
+  margin-bottom: 0.45rem;
+}
+
+.pub-sidebar a {
+  text-decoration: none;
+}
+
+.pub-content h2 {
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.pub-year {
+  margin-bottom: 2rem;
+}
+
+.pub-item {
+  margin-bottom: 0.9rem;
+  line-height: 1.35;
+  font-size: 0.96rem;
+}
+
+.pub-title {
+  font-weight: 600;
+}
+
+.pub-meta {
+  margin-top: 0.15rem;
+  font-size: 0.9rem;
+}
+
+.pub-citation {
+  margin-top: 0.2rem;
+}
+
+.pub-links {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.pub-badge {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.08rem 0.42rem;
+  border: 1px solid #d0d7de;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  line-height: 1.2;
+  vertical-align: middle;
+}
+
+.pub-badge-type {
+  background: #f6f8fa;
+}
+
+.pub-badge-fascia {
+  background: #fff5f5;
+  border-color: #f1b0b7;
+  font-weight: 600;
+}
+
+.pub-sep {
+  margin-top: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 900px) {
+  .pub-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .pub-sidebar {
+    position: static;
+    margin-bottom: 1rem;
+  }
+}
+</style>
+
+{% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+<div class="pub-layout">
+  <aside class="pub-sidebar">
+    <h2>Indice</h2>
+    <ul>
+      {% for year in pubs_by_year %}
+        <li><a href="#year-{{ year.name }}">{{ year.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+
+  <div class="pub-content">
+    {% for year in pubs_by_year %}
+      <section class="pub-year" id="year-{{ year.name }}">
+        <h2>{{ year.name }}</h2>
+
+        {% for post in year.items %}
+          <div class="pub-item">
+            <div class="pub-title">
+              {% if post.paperurl %}
+                <a href="{{ post.paperurl }}">{{ post.title }}</a>
+              {% else %}
+                {{ post.title }}
+              {% endif %}
+
+              {% if post.type %}
+                <span class="pub-badge pub-badge-type">{{ post.type }}</span>
+              {% endif %}
+
+              {% if post.fascia == "A" %}
+                <span class="pub-badge pub-badge-fascia">FASCIA A</span>
+              {% endif %}
+            </div>
+
+            <div class="pub-meta">
+              {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
+            </div>
+
+            {% if post.citation %}
+              <div class="pub-citation">{{ post.citation }}</div>
+            {% endif %}
+
+            {% if post.paperurl or post.slidesurl %}
+              <div class="pub-links">
+                {% if post.paperurl %}
+                  <a href="{{ post.paperurl }}">Paper</a>
+                {% endif %}
+                {% if post.paperurl and post.slidesurl %} | {% endif %}
+                {% if post.slidesurl %}
+                  <a href="{{ post.slidesurl }}">Slides</a>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </section>
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+  </div>
+</div>
