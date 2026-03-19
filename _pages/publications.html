@@ -8,48 +8,6 @@ author_profile: true
 {% include base_path %}
 
 <style>
-.pub-layout {
-  display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 2rem;
-  align-items: start;
-}
-
-.pub-sidebar {
-  position: sticky;
-  top: 2rem;
-  font-size: 0.95rem;
-}
-
-.pub-sidebar h2 {
-  margin-top: 0;
-  margin-bottom: 0.8rem;
-  font-size: 1rem;
-}
-
-.pub-sidebar ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-.pub-sidebar li {
-  margin-bottom: 0.45rem;
-}
-
-.pub-sidebar a {
-  text-decoration: none;
-}
-
-.pub-content h2 {
-  margin-top: 0.2rem;
-  margin-bottom: 0.8rem;
-}
-
-.pub-year {
-  margin-bottom: 2rem;
-}
-
 .pub-item {
   margin-bottom: 0.9rem;
   line-height: 1.35;
@@ -95,80 +53,69 @@ author_profile: true
   font-weight: 600;
 }
 
-.pub-sep {
-  margin-top: 0.9rem;
-  margin-bottom: 1rem;
-}
-
-@media (max-width: 900px) {
-  .pub-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .pub-sidebar {
-    position: static;
-    margin-bottom: 1rem;
-  }
+.pub-year {
+  margin-bottom: 2rem;
 }
 </style>
 
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "post", "post.date | date: '%Y'" %}
 
-<div class="pub-layout">
-  <aside class="pub-sidebar">
-    <h2>Indice</h2>
-    <ul>
+<div class="sidebar__right sticky">
+  <nav class="toc">
+    <header>
+      <h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4>
+    </header>
+    <ul class="toc__menu">
       {% for year in pubs_by_year %}
         <li><a href="#year-{{ year.name }}">{{ year.name }}</a></li>
       {% endfor %}
     </ul>
-  </aside>
+  </nav>
+</div>
 
-  <div class="pub-content">
-    {% for year in pubs_by_year %}
-      <section class="pub-year" id="year-{{ year.name }}">
-        <h2>{{ year.name }}</h2>
+{% for year in pubs_by_year %}
+  <section class="pub-year" id="year-{{ year.name }}">
+    <h2>{{ year.name }}</h2>
+    <hr>
 
-        {% for post in year.items %}
-          <div class="pub-item">
-            <div class="pub-title">
-              {% if post.paperurl %}
-                <a href="{{ post.paperurl }}">{{ post.title }}</a>
-              {% else %}
-                {{ post.title }}
-              {% endif %}
+    {% for post in year.items %}
+      <div class="pub-item">
+        <div class="pub-title">
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}">{{ post.title }}</a>
+          {% else %}
+            {{ post.title }}
+          {% endif %}
 
-              {% if post.type %}
-                <span class="pub-badge pub-badge-type">{{ post.type }}</span>
-              {% endif %}
+          {% if post.type %}
+            <span class="pub-badge pub-badge-type">{{ post.type }}</span>
+          {% endif %}
 
-              {% if post.fascia == "A" %}
-                <span class="pub-badge pub-badge-fascia">FASCIA A</span>
-              {% endif %}
-            </div>
+          {% if post.fascia == "A" %}
+            <span class="pub-badge pub-badge-fascia">FASCIA A</span>
+          {% endif %}
+        </div>
 
-            <div class="pub-meta">
-              {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
-            </div>
+        <div class="pub-meta">
+          {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
+        </div>
 
-            {% if post.citation %}
-              <div class="pub-citation">{{ post.citation }}</div>
+        {% if post.citation %}
+          <div class="pub-citation">{{ post.citation }}</div>
+        {% endif %}
+
+        {% if post.paperurl or post.slidesurl %}
+          <div class="pub-links">
+            {% if post.paperurl %}
+              <a href="{{ post.paperurl }}">Paper</a>
             {% endif %}
-
-            {% if post.paperurl or post.slidesurl %}
-              <div class="pub-links">
-                {% if post.paperurl %}
-                  <a href="{{ post.paperurl }}">Paper</a>
-                {% endif %}
-                {% if post.paperurl and post.slidesurl %} | {% endif %}
-                {% if post.slidesurl %}
-                  <a href="{{ post.slidesurl }}">Slides</a>
-                {% endif %}
-              </div>
+            {% if post.paperurl and post.slidesurl %} | {% endif %}
+            {% if post.slidesurl %}
+              <a href="{{ post.slidesurl }}">Slides</a>
             {% endif %}
           </div>
-        {% endfor %}
-      </section>
+        {% endif %}
+      </div>
     {% endfor %}
-  </div>
-</div>
+  </section>
+{% endfor %}
