@@ -19,6 +19,11 @@ In questo contesto si inserisce lo sviluppo di **AlBERTino**, un modello linguis
   <img src="/images/albertino1.png" width="500">
 </p>
 
+<p align="center" style="font-size: 0.9em; color: #666;">
+Una versione di AlBERTino generata da Midjourney. Colasanto, F., Grilli, L., Santoro, D., & Villani, G. (2022). 
+<i>AlBERTino for stock price prediction: a Gibbs sampling approach</i>, Information Sciences
+</p>
+
 L’introduzione di modelli di questo tipo ha permesso di migliorare l’estrazione di informazione da flussi di notizie, rendendo possibile l’integrazione del contenuto testuale in modelli di previsione dei prezzi e in sistemi di supporto alle decisioni. In particolare, l’utilizzo di rappresentazioni linguistiche avanzate ha contribuito a catturare dinamiche di breve periodo nei mercati, spesso non osservabili attraverso i soli dati numerici.
 
 Un ulteriore sviluppo riguarda l’integrazione del NLP nei modelli di ottimizzazione di portafoglio, dove le informazioni derivanti dal sentiment vengono utilizzate per modificare le aspettative sui rendimenti e migliorare i processi decisionali. In questo contesto, l’informazione testuale viene trattata come una fonte aggiuntiva di conoscenza, in grado di arricchire modelli classici attraverso l’inclusione di variabili latenti.
