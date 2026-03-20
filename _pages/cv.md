@@ -29,7 +29,7 @@ redirect_from:
 - **Laurea Magistrale in Ingegneria Gestionale (LM-31)**  
   Marzo 2024  
 
-- **Dottorato in Economia e Finanza (DEFAP)**  
+- **Dottorato in Economia e Finanza delle Amm. Pubbliche (DEFAP)**  
   Università di Bari, Gennaio 2024  
 
 - **Summer School in Economics of Global Interaction**  
