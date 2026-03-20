@@ -37,11 +37,11 @@ Tra queste, l’**Ant Colony Optimization (ACO)** rappresenta un approccio parti
 Nel contesto dei problemi su grafi, tali algoritmi risultano particolarmente adatti per la risoluzione di varianti del **Chinese Postman Problem**, in cui è necessario individuare percorsi minimi che attraversino tutti gli archi di una rete. L’estensione di questi metodi a dati reali introduce ulteriori complessità, legate alla struttura irregolare delle reti e alla presenza di vincoli operativi.
 
 <p align="center">
-  <img src="/images/montidauni.png" width="500">
+  <img src="/images/aco.png" width="500">
 </p>
 
 <p align="center" style="font-size: 0.9em; color: #666;">
-Sgarro, G. A., Santoro, D., & Grilli, L. (2024). 
+Rappresentazione grafica dello ski resort (Madonna di Campiglio) e modello di mappa come un grafo "directed". Sgarro, G. A., Santoro, D., & Grilli, L. (2024). 
 <i>Ant Colony Optimization for solving Directed Chinese Postman Problem</i>, Neural Computing & Applications.
 </p>
 
@@ -50,7 +50,7 @@ L’applicazione di questi modelli a dati aperti e contesti reali ha permesso di
 Una particolare applicazione riguarda l’analisi della rete stradale dei **Monti Dauni**, un’area caratterizzata da una morfologia complessa e da una struttura infrastrutturale articolata. In questo caso, il problema è stato modellato come una variante del Chinese Postman Problem, con l’obiettivo di individuare percorsi ottimali in grado di garantire una copertura efficiente della rete.
 
 <p align="center">
-  <img src="/images/aco.png" width="500">
+  <img src="/images/montidauni.png" width="500">
 </p>
 
 <p align="center" style="font-size: 0.9em; color: #666;">
