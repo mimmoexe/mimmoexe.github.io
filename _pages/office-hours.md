@@ -5,9 +5,8 @@ permalink: /ricevimento/
 author_profile: true
 ---
 
-## Ricevimento studenti
+Il ricevimento si svolge di norma il **lunedì pomeriggio dalle ore 15:00 alle ore 16:00**, salvo eventuali variazioni legate a esigenze didattiche o richieste degli studenti.
 
-Il ricevimento si svolge **su appuntamento**.
+È comunque necessario concordare preventivamente l’appuntamento tramite posta elettronica.
 
-Gli incontri possono essere organizzati:
-
+Il ricevimento si svolge su Google Meet.
