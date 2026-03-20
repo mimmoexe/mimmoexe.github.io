@@ -12,7 +12,7 @@ La mia attività di ricerca si colloca nell’ambito dell’Intelligenza Artific
 Le principali linee di ricerca includono:
 
 ### 🔹 Natural Language Processing
-Metodi di analisi del linguaggio naturale per la lingua italiana, con applicazioni alla sentiment analysis e all’estrazione di informazione da dati testuali.
+Sviluppo di modelli linguistici avanzati per la lingua italiana e integrazione di informazioni testuali nei modelli quantitativi. L’attività si concentra su sentiment analysis, modelli basati su transformer e applicazioni in ambito economico-finanziario.
 
 [Scopri di più →](/ricerca/nlp/)
 
