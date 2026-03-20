@@ -5,8 +5,6 @@ permalink: /ricerca/optimization/
 author_profile: true
 ---
 
-## Ottimizzazione e Metaeuristiche
-
 L’ottimizzazione rappresenta un ambito centrale nell’analisi di sistemi complessi, in cui l’obiettivo è individuare soluzioni efficienti in presenza di vincoli e molteplici criteri decisionali. In contesti reali, tali problemi sono spesso caratterizzati da elevata dimensionalità, non linearità e presenza di più obiettivi, rendendo difficile l’applicazione di metodi deterministici tradizionali.
 
 In questo scenario, le metaeuristiche e gli algoritmi evolutivi costituiscono strumenti particolarmente efficaci, in quanto permettono di esplorare spazi di soluzione complessi attraverso strategie ispirate a processi naturali, come la selezione genetica o il comportamento collettivo.
