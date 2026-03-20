@@ -7,6 +7,33 @@ redirect_from:
   - /resume
 ---
 
+<style>
+.page__content p,
+.page__content li {
+  margin-bottom: 0.2em;
+  line-height: 1.25;
+}
+
+.page__content ul {
+  margin-bottom: 0.6em;
+}
+
+.page__content h2 {
+  margin-top: 1em;
+  margin-bottom: 0.35em;
+}
+
+.page__content h3 {
+  margin-top: 0.6em;
+  margin-bottom: 0.2em;
+}
+
+.page__content hr {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+</style>
+
 {% include toc %}
 
 ---
