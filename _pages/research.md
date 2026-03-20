@@ -5,8 +5,6 @@ permalink: /ricerca/
 author_profile: true
 ---
 
-## Attività di ricerca
-
 La mia attività di ricerca si colloca nell’ambito dell’Intelligenza Artificiale e della Data Science, con applicazioni in diversi settori, tra cui finanza, sistemi complessi e supporto alle decisioni.
 
 Le principali linee di ricerca includono:
@@ -19,7 +17,7 @@ Sviluppo di modelli linguistici avanzati per la lingua italiana e integrazione d
 ---
 
 ### 🔹 Machine Learning per la Finanza
-Modelli predittivi e data-driven per analisi di serie temporali finanziarie, portfolio optimization e valutazione di investimenti.
+Sviluppo di modelli di machine learning e deep learning per l’analisi di serie temporali finanziarie e la modellazione dei mercati come sistemi complessi. L’attività include l’integrazione di reti neurali, misure entropiche e approcci probabilistici per migliorare la previsione e supportare decisioni di investimento.
 
 [Scopri di più →](/ricerca/finance/)
 
@@ -30,9 +28,3 @@ Sviluppo e applicazione di algoritmi evolutivi e metaeuristiche per la risoluzio
 
 [Scopri di più →](/ricerca/optimization/)
 
----
-
-### 🔹 Altri ambiti
-Applicazioni di AI a mobilità sostenibile, blockchain, digital health e business intelligence.
-
-[Scopri di più →](/ricerca/other/)
