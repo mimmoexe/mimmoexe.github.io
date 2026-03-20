@@ -16,7 +16,7 @@ Particolare attenzione è stata dedicata allo sviluppo di modelli per la lingua 
 In questo contesto si inserisce lo sviluppo di **AlBERTino**, un modello linguistico basato su architetture BERT, progettato per l’analisi del sentiment in lingua italiana in ambito economico-finanziario. Il modello è stato costruito a partire da rappresentazioni contestuali del linguaggio e adattato a dataset specifici, con l’obiettivo di catturare le sfumature semantiche tipiche dei testi finanziari.
 
 <p align="center">
-  <img src="../images/albertino1.png" width="500">
+  <img src="/images/albertino1.png" width="500">
 </p>
 
 L’introduzione di modelli di questo tipo ha permesso di migliorare l’estrazione di informazione da flussi di notizie, rendendo possibile l’integrazione del contenuto testuale in modelli di previsione dei prezzi e in sistemi di supporto alle decisioni. In particolare, l’utilizzo di rappresentazioni linguistiche avanzate ha contribuito a catturare dinamiche di breve periodo nei mercati, spesso non osservabili attraverso i soli dati numerici.
