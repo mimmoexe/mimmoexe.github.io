@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Machine Learning per la Finanza"
+title: "Machine/Deep Learning per la Finanza"
 permalink: /ricerca/finance/
 author_profile: true
 ---
