@@ -26,7 +26,7 @@ Modelli predittivi e data-driven per analisi di serie temporali finanziarie, por
 ---
 
 ### 🔹 Ottimizzazione e Metaeuristiche
-Algoritmi evolutivi, metaeuristiche e metodi di ottimizzazione per problemi complessi, inclusi grafi e logistica.
+Sviluppo e applicazione di algoritmi evolutivi e metaeuristiche per la risoluzione di problemi complessi, con particolare attenzione a contesti multi-obiettivo, sistemi su grafi e modelli basati su agenti. Le applicazioni includono ottimizzazione di portafoglio, sistemi adattivi e problemi di routing in contesti reali.
 
 [Scopri di più →](/ricerca/optimization/)
 
