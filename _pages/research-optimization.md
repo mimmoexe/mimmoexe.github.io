@@ -11,9 +11,11 @@ In questo scenario, le metaeuristiche e gli algoritmi evolutivi costituiscono st
 
 ## Algoritmi genetici e ottimizzazione evolutiva
 
-Gli algoritmi genetici rappresentano una delle principali metodologie utilizzate per affrontare problemi di ottimizzazione complessi. Basati su operatori come selezione, crossover e mutazione, tali algoritmi consentono di esplorare lo spazio delle soluzioni in modo flessibile ed efficace, adattandosi a contesti in cui le relazioni tra variabili non sono esplicitamente note.
+Gli algoritmi genetici rappresentano una delle principali metodologie utilizzate per affrontare problemi di ottimizzazione complessi, in particolare in contesti caratterizzati da elevata dimensionalità, non linearità e presenza di più obiettivi. Ispirati ai meccanismi di selezione naturale, questi metodi permettono di esplorare lo spazio delle soluzioni attraverso l’evoluzione di una popolazione di candidati, combinando e adattando progressivamente le soluzioni migliori.
 
-In questo ambito, sono stati sviluppati modelli evolutivi avanzati per problemi di ottimizzazione multi-obiettivo.
+In ambito finanziario, tali approcci risultano particolarmente efficaci per la costruzione di strategie di investimento e per l’ottimizzazione di portafogli in presenza di informazione incerta. In questo contesto, sono stati sviluppati modelli evolutivi avanzati per l’ottimizzazione multi-obiettivo, in cui è necessario bilanciare criteri contrastanti, come rendimento e rischio.
+
+Un esempio significativo è rappresentato da **EvoFolio**, un modello di ottimizzazione di portafoglio basato su algoritmi evolutivi multi-obiettivo. Il modello consente di costruire soluzioni efficienti attraverso l’esplorazione simultanea di diverse configurazioni, permettendo di identificare frontiere di Pareto che rappresentano compromessi ottimali tra obiettivi in conflitto.
 
 <p align="center">
   <img src="/images/evofolio.png" width="500">
@@ -24,7 +26,24 @@ Guarino, A., Santoro, D., Grilli, L., Zaccagnino, R., & Balbi, M. (2024).
 <i>EvoFolio: a portfolio optimization method based on multi-objective evolutionary algorithms</i>, Neural Computing & Applications.
 </p>
 
-L’uso di questi strumenti permette di integrare dinamicamente informazioni e vincoli, migliorando l’efficienza della ricerca di soluzioni ottimali rispetto ai metodi tradizionali.
+Parallelamente, l’evoluzione dei mercati finanziari ha portato a una crescente diffusione di **agenti computazionali intelligenti**, in grado di apprendere strategie di trading attraverso tecniche di machine learning, come il reinforcement learning. Tali agenti sono in grado di adattarsi dinamicamente al mercato, migliorando progressivamente le proprie decisioni sulla base dell’esperienza.
+
+In questo contesto, è stato sviluppato un approccio innovativo basato sull’idea di sfruttare il comportamento collettivo dei migliori agenti. Piuttosto che costruire una singola strategia ottimale, l’attenzione è stata posta sulla possibilità di osservare e combinare le strategie più performanti, in un’ottica simile ai fenomeni di **herding behavior**.
+
+Questo approccio ha portato allo sviluppo di **GGSMZ**, un agente neuro-fuzzy in grado di apprendere dalle strategie dei migliori agenti presenti nel sistema e di combinarle in modo adattivo. Il modello integra tecniche di apprendimento e logica fuzzy, consentendo di costruire strategie robuste anche in contesti altamente volatili.
+
+<p align="center">
+  <img src="/images/ggsmz.png" width="500">
+</p>
+
+<p align="center" style="font-size: 0.9em; color: #666;">
+Guarino, A., Grilli, L., Santoro, D., Messina, F., & Zaccagnino, R. (2022). 
+<i>To learn or not to learn? Evaluating autonomous, adaptive, automated traders in cryptocurrencies financial bubbles</i>, Neural Computing & Applications.
+</p>
+
+L’efficacia di questo approccio è stata analizzata in diversi contesti caratterizzati da elevata turbolenza dei mercati, come le bolle speculative delle criptovalute e le dinamiche dei mercati delle commodity in periodi di crisi. I risultati evidenziano come l’integrazione di strategie multiple e l’apprendimento dal comportamento collettivo possano migliorare significativamente le performance rispetto ai singoli agenti.
+
+Nel complesso, questi approcci mostrano come l’ottimizzazione evolutiva possa essere estesa oltre la semplice ricerca di soluzioni ottimali, diventando uno strumento per modellare sistemi adattivi e dinamici in cui l’interazione tra agenti gioca un ruolo fondamentale.
 
 ## Metaeuristiche e problemi su grafi
 
