@@ -54,7 +54,7 @@ Una particolare applicazione riguarda l’analisi della rete stradale dei **Mont
 </p>
 
 <p align="center" style="font-size: 0.9em; color: #666;">
-Sgarro, G. A., Santoro, D., & Grilli, L. (2026). 
+Comune di Volturino (FG). Sgarro, G. A., Santoro, D., & Grilli, L. (2026). 
 <i>Ant colony optimization for solving mixed Chinese postman problem on open real world data</i>, Neural Computing & Applications.
 </p>
 
