@@ -16,7 +16,7 @@ Sviluppo di modelli linguistici avanzati per la lingua italiana e integrazione d
 
 ---
 
-### 🔹 Machine Learning per la Finanza
+### 🔹 Machine/Deep Learning per la Finanza
 Sviluppo di modelli di machine learning e deep learning per l’analisi di serie temporali finanziarie e la modellazione dei mercati come sistemi complessi. L’attività include l’integrazione di reti neurali, misure entropiche e approcci probabilistici per migliorare la previsione e supportare decisioni di investimento.
 
 [Scopri di più →](/ricerca/finance/)
