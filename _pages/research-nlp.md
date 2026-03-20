@@ -5,8 +5,6 @@ permalink: /ricerca/nlp/
 author_profile: true
 ---
 
-## Natural Language Processing
-
 Il Natural Language Processing (NLP) rappresenta oggi uno degli ambiti più rilevanti nell’ambito dell’Intelligenza Artificiale, grazie alla crescente disponibilità di dati testuali e alla possibilità di estrarre informazione semantica da fonti non strutturate. Negli ultimi anni, l’evoluzione dei modelli linguistici, in particolare delle architetture basate su transformer, ha consentito di ottenere risultati significativi in numerosi task, tra cui classificazione del testo, traduzione automatica e analisi del sentiment.
 
 In ambito economico-finanziario, l’utilizzo del NLP ha aperto nuove prospettive per l’analisi dei mercati, consentendo di integrare informazioni provenienti da notizie, report e contenuti digitali all’interno di modelli quantitativi. In questo contesto, una delle principali sfide riguarda l’adattamento dei modelli linguistici a domini specifici e a lingue diverse dall’inglese, in cui le risorse disponibili risultano spesso limitate.
