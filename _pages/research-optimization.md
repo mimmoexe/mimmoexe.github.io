@@ -30,20 +30,11 @@ L’uso di questi strumenti permette di integrare dinamicamente informazioni e v
 
 ## Metaeuristiche e problemi su grafi
 
-Un’altra area rilevante riguarda l’applicazione di metaeuristiche a problemi su grafi e reti, che emergono frequentemente in contesti logistici e infrastrutturali.
+n’altra area rilevante riguarda l’applicazione di metaeuristiche a problemi su grafi e reti, che emergono frequentemente in contesti logistici, infrastrutturali e territoriali. In tali scenari, la complessità combinatoria e la presenza di vincoli strutturali rendono spesso impraticabile l’utilizzo di metodi esatti, rendendo necessarie tecniche di ottimizzazione approssimata.
 
-In questo contesto, algoritmi come l’Ant Colony Optimization permettono di simulare comportamenti collettivi ispirati alla natura.
+Tra queste, l’**Ant Colony Optimization (ACO)** rappresenta un approccio particolarmente efficace, ispirato al comportamento collettivo delle colonie di formiche. L’idea alla base del metodo consiste nella simulazione di agenti che esplorano lo spazio delle soluzioni depositando e seguendo tracce di feromone, permettendo una progressiva convergenza verso percorsi ottimali.
 
-<p align="center">
-  <img src="/images/aco.png" width="500">
-</p>
-
-<p align="center" style="font-size: 0.9em; color: #666;">
-Sgarro, G. A., Santoro, D., & Grilli, L. (2026). 
-<i>Ant colony optimization for solving mixed Chinese postman problem on open real world data</i>, Neural Computing & Applications.
-</p>
-
-Una declinazione particolarmente significativa riguarda l’applicazione a contesti territoriali reali, come quello dei Monti Dauni.
+Nel contesto dei problemi su grafi, tali algoritmi risultano particolarmente adatti per la risoluzione di varianti del **Chinese Postman Problem**, in cui è necessario individuare percorsi minimi che attraversino tutti gli archi di una rete. L’estensione di questi metodi a dati reali introduce ulteriori complessità, legate alla struttura irregolare delle reti e alla presenza di vincoli operativi.
 
 <p align="center">
   <img src="/images/montidauni.png" width="500">
@@ -54,7 +45,22 @@ Sgarro, G. A., Santoro, D., & Grilli, L. (2024).
 <i>Ant Colony Optimization for solving Directed Chinese Postman Problem</i>, Neural Computing & Applications.
 </p>
 
-L’utilizzo di algoritmi di tipo ACO ha consentito di affrontare la complessità del problema in presenza di dati reali, mostrando il potenziale delle metaeuristiche nel supporto alle decisioni territoriali.
+L’applicazione di questi modelli a dati aperti e contesti reali ha permesso di estendere le formulazioni teoriche a scenari più complessi, introducendo varianti del problema in cui la rete presenta caratteristiche non standard, come archi misti, direzionalità parziale e incompletezza delle informazioni.
+
+Una particolare applicazione riguarda l’analisi della rete stradale dei **Monti Dauni**, un’area caratterizzata da una morfologia complessa e da una struttura infrastrutturale articolata. In questo caso, il problema è stato modellato come una variante del Chinese Postman Problem, con l’obiettivo di individuare percorsi ottimali in grado di garantire una copertura efficiente della rete.
+
+<p align="center">
+  <img src="/images/aco.png" width="500">
+</p>
+
+<p align="center" style="font-size: 0.9em; color: #666;">
+Sgarro, G. A., Santoro, D., & Grilli, L. (2026). 
+<i>Ant colony optimization for solving mixed Chinese postman problem on open real world data</i>, Neural Computing & Applications.
+</p>
+
+L’utilizzo di algoritmi ACO in questo contesto ha consentito di affrontare la complessità del problema in presenza di dati reali, evidenziando come approcci basati su intelligenza collettiva possano fornire soluzioni robuste ed efficienti anche in scenari caratterizzati da elevata variabilità e incertezza.
+
+Nel complesso, queste applicazioni mostrano come le metaeuristiche possano rappresentare strumenti fondamentali per la gestione e l’ottimizzazione di sistemi complessi, contribuendo allo sviluppo di modelli avanzati per la pianificazione e il supporto alle decisioni in contesti reali.
 
 ## Ottimizzazione multi-obiettivo e sistemi complessi
 
