@@ -118,3 +118,4 @@ redirect_from:
 - **Membro AMASES** (Associazione per la Matematica Applicata alle Scienze Economiche e Sociali)
 - **Socio SIS** (Società Italiana di Statistica)
 - **Socio De Componendis Cifris (De Cifris)**
+- **Socio Mathesis Foggia**
