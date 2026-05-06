@@ -104,6 +104,7 @@ redirect_from:
 - Partecipazione a numerosi convegni nazionali e internazionali, tra cui:  
   **AMASES, CHAOS, DySES, MAF, EFI, SIS, AIMS**
 - **Membro dell’Editorial Board** della rivista *Applied Mathematical Sciences* (ISSN 1314-7552, online)
+- **Guest Editor** della Special Issue [Sustainable Applications of AI and Machine Learning in Digital Ecosystems](https://www.mdpi.com/journal/sustainability/special_issues/5346V3OGBK) sulla rivista *Sustainability*
 - **Revisore per riviste scientifiche internazionali**
 
 ## Collegio Docenti di Dottorato
